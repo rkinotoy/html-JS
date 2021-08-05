@@ -6,8 +6,12 @@
     <title>AAA</title>
   </head>
   <body>
-    <h1>入力フォーム</h1>
-    <form>
+    <h2>入力フォーム</h2>
+    <p>以下のフォームにご記入の上、送信してください。</p>
+    <form action="https://www.rescure.ne.jp/form/mail.cgi" method="POST">
+      <input type="hidden" name="_uid" value="qIDqCrYNwZGVGIcm">
+      <input type="hidden" name="_encode" value="utf8">
+      <input type="hidden" name-"_done" value="https://rkinotoy.github.io/html-JS/Contrast.html">
       <p>
       <label>名前（必須）:
           <input type="text" name="username" placeholder="全角で入力してください。" required>
@@ -36,7 +40,7 @@
       <p>
           <button type="submit">送信</button>
       </p>
-
+      <small>Powered by <a href="https://www.rescue.ne.jp/" target="_blank">CGI RESCUE</a><sup>&reg;</sup></small>
     </form>
   </body>
   </html>
