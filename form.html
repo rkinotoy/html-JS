@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rkstyle.css">
+    <title>AAA</title>
+  </head>
+  <body>
+    <h1>入力フォーム</h1>
+    <form>
+      <p>
+      <label>名前（必須）:
+          <input type="text" name="username" placeholder="全角で入力してください。" required>
+      </label>
+      </p>
+      <p>
+      <label>フリガナ（任意）:
+        <input type="text" name="userfurigana" placeholder="全角カタカナで入力してください。" required>     
+      </label>
+      </p>
+      <p>
+      <label>電話番号（必須）:
+        <input type="tel" name="usertel" placeholder="ハイフォンなしの半角数字で入力してください。" required>
+      </label>
+      </p>
+      <p>
+      <label>メールアドレス（必須）:
+        <input type="email" name="usermail" placeholder="半角で入力してください。" required>
+      </label>
+      </p>
+      <p>
+      <label>お問い合わせ内容 :
+        <textarea name="usercomment" placeholder="できるだけ具体的な内容を入力してください。"></textarea>
+      </label>
+      </p>
+      <p>
+          <button type="submit">送信</button>
+      </p>
+
+    </form>
+  </body>
+  </html>
